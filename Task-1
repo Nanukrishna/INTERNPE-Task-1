@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#mains">Mains</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="appetizers">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <h3>Bruschetta</h3>
+                <p>Grilled bread topped with tomatoes, garlic, and basil.</p>
+                <span>$8</span>
+            </div>
+            <div class="menu-item">
+                <h3>Stuffed Mushrooms</h3>
+                <p>Mushrooms stuffed with cheese and herbs.</p>
+                <span>$10</span>
+            </div>
+        </section>
+        
+        <section id="mains">
+            <h2>Mains</h2>
+            <div class="menu-item">
+                <h3>Grilled Salmon</h3>
+                <p>Salmon fillet grilled to perfection with a side of veggies.</p>
+                <span>$20</span>
+            </div>
+            <div class="menu-item">
+                <h3>Steak Frites</h3>
+                <p>Juicy steak served with crispy fries.</p>
+                <span>$25</span>
+            </div>
+        </section>
+        
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <h3>Tiramisu</h3>
+                <p>Classic Italian coffee-flavored dessert.</p>
+                <span>$6</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chocolate Lava Cake</h3>
+                <p>Warm chocolate cake with a gooey center.</p>
+                <span>$8</span>
+            </div>
+        </section>
+        
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <div class="menu-item">
+                <h3>Red Wine</h3>
+                <p>A selection of fine red wines.</p>
+                <span>$10/glass</span>
+            </div>
+            <div class="menu-item">
+                <h3>Craft Beer</h3>
+                <p>Local craft beers on tap.</p>
+                <span>$7</span>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    margin: 0;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #28a745;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #343a40;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
